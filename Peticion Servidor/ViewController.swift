@@ -35,6 +35,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
 
     @IBAction func BtnLimpiar(sender: AnyObject) {
          outLibro.text = "-------------";
+         editLibro.text = "";
     }
     //978-84-376-0494-7    
     func async(isbn:String){
